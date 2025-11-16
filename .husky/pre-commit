@@ -1,0 +1,5 @@
+# lint-staged 실행 (ESLint + Prettier 자동 적용)
+npx lint-staged
+
+# Staged 파일만 검사 (전체 프로젝트 검사보다 빠름)
+npm run check:staged
